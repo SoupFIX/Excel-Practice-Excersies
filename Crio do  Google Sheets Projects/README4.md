@@ -1,6 +1,6 @@
 # Problem Description:
-##In this activity, you are tasked to apply conditional formatting to the data given in the worksheets (Formatting1, Formatting2 and Formatting3).
-##Task:
+## In this activity, you are tasked to apply conditional formatting to the data given in the worksheets (Formatting1, Formatting2 and Formatting3).
+## Task:
 
 ## Step 1: Apply conditional formatting in Formatting1 worksheet
 ### 1. Use conditional formatting in such a manner that any Cell which has more than the average for that month will have a green colour else Red color.
