@@ -1,19 +1,30 @@
-# Problem Description:
-## In this activity, you are tasked to apply conditional formatting to the data given in the worksheets (Formatting1, Formatting2 and Formatting3).
-## Task:
+### 📕 4. Excel_Practice_If_or_nested.xlsx
 
-## Step 1: Apply conditional formatting in Formatting1 worksheet
-### 1. Use conditional formatting in such a manner that any Cell which has more than the average for that month will have a green colour else Red color.
+> **Topic:** IF Logic, Nested IFs & Conditional Formatting
 
-## Step 2: Apply conditional formatting in Formatting2 worksheet
-### 1. In the given data, highlight the whole row in Blue wherever the date in Column G (Session dates) is today’s date and Batch in Column D is "Batch 1"
-### 2. In the given data, highlight the whole row in Green wherever the date in Column G (Session dates) is today’s date and Batch in Column D is "Batch 2"
+The most advanced file in the repo! It covers **three formatting challenge sheets**, each testing a different aspect of conditional logic and formatting.
 
-## Step 3: Apply conditional formatting in Formatting3 worksheet
-### 1. Format whole column with any Color, based on the selection of month in C5
+**🎨 Formatting Sheet 1 — Above/Below Average Highlighting:**
+- Apply conditional formatting so cells **above average turn GREEN**, cells below turn **RED**
+- Use `AVERAGE()` as a dynamic threshold
+- Identify which rows are entirely above or below average
 
-## Step 4: Fill up the Solution sheet
-### 1.Once done with the formatting, head over to the Solution sheet and answer the questions given.
+**📋 Formatting Sheet 2 — Training Batch Tracker:**
+- Work with a structured dataset: Batch No., Pax Count, Timeslots, Session Dates, Trainers
+- Apply formatting rules based on batch conditions
+- Practice date-based formatting
 
-# Submission : 
-<img width="909" height="1006" alt="image" src="https://github.com/user-attachments/assets/0d1d0f4f-9180-4775-92a6-2161939573a5" />
+**📅 Formatting Sheet 3 — Month-Based Column Formatting:**
+- Format an entire column dynamically **based on a selected month in cell C5**
+- Use `IF()` and conditional formatting together
+- Understand how formula-driven rules work
+
+**📌 Key Functions & Features Used:**
+```excel
+=IF(condition, value_if_true, value_if_false)
+=AVERAGE()               → Used as a dynamic threshold
+Conditional Formatting   → Home Tab → Conditional Formatting
+  ├── Highlight Cell Rules
+  ├── New Rule → Use a formula
+  └── =A1 > AVERAGE($A$1:$A$10)
+```
