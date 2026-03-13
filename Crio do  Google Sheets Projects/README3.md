@@ -1,17 +1,28 @@
-# Problem Description Excel Practice Data And Filter:
-In this activity, you are tasked with converting date formats and applying filters based on conditions.
-Task:
-## Step 1: Change the date format.
+### 📒 3. Excel_Practice_Data_Validation.xlsx
 
-## 1. Change the date format for the given dates from (yyyymmdd.000) to (mm/dd/yyyy).
+> **Topic:** Data Validation Rules & Form Design
 
-## Step 2: Filter based on given conditions.
+This file simulates a **real office scenario** where you, as a manager, need to prepare a data collection sheet with proper validation rules so employees fill in data correctly.
 
-## 1. Filter all the Country name starts with letter "F"
+**🔧 What You'll Practice:**
+- Applying **Whole Number** validation on Employee Code columns
+- Setting **Date restrictions** (e.g., rejecting entries for employees under 19 years old)
+- Creating **Dropdown lists** for controlled input
+- Understanding validation error alerts
+- Locating **Data Validation** under the **Data tab** on the Ribbon
 
-## 2. Filter the data in Quarter 3
+**📌 Key Concepts Covered:**
+```
+Data Tab → Data Validation
+  ├── Allow: Whole Number / Decimal / Date / List
+  ├── Data: Between / Greater Than / Less Than
+  ├── Error Alert: Stop / Warning / Information
+  └── Input Message: Custom guidance for users
+```
 
-## Step 3: Fill the solution sheet
+**💡 Real-World Scenario:** You are an HR manager distributing a form to 50 employees and must ensure all entries are valid before submission.
 
-# Submission : 
-<img width="922" height="568" alt="image" src="https://github.com/user-attachments/assets/a3865c05-0ac0-4959-9553-07e927e58d87" />
+**🧪 Sample Quiz Questions (from Solution sheet):**
+- Which Ribbon tab contains Data Validation? → **Data**
+- Should Emp_Code allow Whole Number or Decimal? → **Whole Number**
+- Can a 19-year-old employee submit their Birthdate? → **No**
