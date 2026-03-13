@@ -1,26 +1,29 @@
-# Problem Description Excel Practice Data Validation :
-In this activity, you are tasked to apply data validation rules based on the instructions given.
+### 📙 2. Excel_Practice_Data_and_Filter.xlsx
 
-Task:
-## Step 1: Set up the data validation
+> **Topic:** Date Formatting & Advanced Filtering
 
-Consider yourself as a manager you need to send this sheet to employees
-to gather data. For proper data collection validate the columns.
-Apply these data validation rules:
+This file has **two challenge sheets** — one for date conversions and one for filtering large datasets using Excel's powerful filter tools.
 
-## 1. Give validation to Emp_code so that the user can enter only between 1 to 1000 without decimal.
+**🔧 What You'll Practice:**
 
-## 2. Give validation to Birthdate so that the date after 2002 should not be accepted.
+**📅 Date Sheet:**
+- Converting dates from one format to another (e.g., `DD/MM/YYYY` → `YYYY-MM-DD`)
+- Using `TEXT()` function for custom date formatting
+- Cross-referencing date values between sheets
 
-## 3. Give validation to Salary so that the salary is between 25000-85000.
+**🔍 Filter Sheet (319 rows of country data!):**
+- Filtering countries whose names **start with the letter "F"**
+- Applying **AutoFilter** and **Advanced Filter**
+- Extracting specific subsets of large datasets
 
-## 4. Give validation to User_Id so that the userid is minimum 5 character long.
+**📌 Key Functions & Features Used:**
+```excel
+=TEXT(A1,"YYYY-MM-DD")    → Custom date formatting
+AutoFilter                 → Quick data filtering
+Advanced Filter            → Criteria-based filtering
+Starts With "F"            → Text-based filter condition
+```
 
-## 5. Give validation to Region so that the user will select the region from the list.
+**💡 Real-World Scenario:** You are a data analyst cleaning and filtering a global country database for a report.
 
-## 6. Depending upon the region selected the user will get the respective Area.
-
-## Step 2: Fill the solution sheet
-
-# Submission:
-<img width="919" height="577" alt="image" src="https://github.com/user-attachments/assets/f2f3d25d-37cd-491f-88c5-9a6f6769e634" />
+---
